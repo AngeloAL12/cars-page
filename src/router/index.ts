@@ -16,13 +16,13 @@ const router = createRouter({
       component: MaterView,
     },
     {
-      path: '/services',
-      name: 'services',
+      path: '/king',
+      name: 'King',
       component: () => import('@/views/ServicesView.vue'),
     },
     {
-      path: '/about',
-      name: 'about',
+      path: '/chicks',
+      name: 'Chicks',
       component: () => import('@/views/AboutView.vue'),
     },
     {
